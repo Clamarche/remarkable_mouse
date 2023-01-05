@@ -162,10 +162,10 @@ def main():
         # ----- Handle events -----
 
         if args.evdev:
-            from remarkable_mouse.evdev import read_tablet
+            from evdev import read_tablet
 
         else:
-            from remarkable_mouse.pynput import read_tablet
+            from rpynput import read_tablet
 
         read_tablet(
             rm_inputs,

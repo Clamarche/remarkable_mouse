@@ -7,8 +7,8 @@ from itertools import cycle
 from socket import timeout as TimeoutError
 import libevdev
 
-from .codes import codes, types
-from .common import get_monitor, remap, wacom_max_x, wacom_max_y, log_event
+from codes import codes, types
+from common import get_monitor, remap, wacom_max_x, wacom_max_y, log_event
 
 logging.basicConfig(format='%(message)s')
 log = logging.getLogger('remouse')

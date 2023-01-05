@@ -4,7 +4,7 @@ import logging
 import sys
 from screeninfo import get_monitors, Monitor
 
-from .codes import codes, types
+from codes import codes, types
 
 logging.basicConfig(format='%(message)s')
 log = logging.getLogger('remouse')

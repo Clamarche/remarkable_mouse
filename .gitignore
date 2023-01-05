@@ -3,3 +3,10 @@ dist/
 remarkable_mouse.egg-info
 **/__pycache__
 build/
+
+bin/
+build/
+dist/
+include/
+lib/
+lib64/

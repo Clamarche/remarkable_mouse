@@ -3,8 +3,8 @@ import struct
 from screeninfo import get_monitors
 
 # from .codes import EV_SYN, EV_ABS, ABS_X, ABS_Y, BTN_TOUCH
-from .codes import codes
-from .common import get_monitor, remap, wacom_max_x, wacom_max_y, log_event
+from codes import codes
+from common import get_monitor, remap, wacom_max_x, wacom_max_y, log_event
 
 logging.basicConfig(format='%(message)s')
 log = logging.getLogger('remouse')
