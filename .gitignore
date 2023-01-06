@@ -11,4 +11,4 @@ include/
 lib/
 lib64
 
-remouse.sh
+remouse*.sh

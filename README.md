@@ -66,3 +66,23 @@ optional arguments:
   --evdev               use evdev to support pen pressure (requires root, Linux only)
 ```
 
+# Quick Command
+
+The file `remouse.sh` is created to run everything that is necessary to make `remarkable_mouse` work. 
+
+```
+./remouse.sh
+```
+
+There is also `remouse0.sh` and `remouse1.sh` which are the same as `remouse.sh` but with the monitor number set to 0 or 1 respectively.
+
+```
+./remouse0.sh
+```
+
+```
+./remouse1.sh
+```
+
+
+
