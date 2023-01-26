@@ -67,22 +67,19 @@ optional arguments:
 ```
 
 # Quick Command
+Start a virtual environment with the command:
+
+```shell
+pipenv shell
+```
+
 
 The file `remouse.sh` is created to run everything that is necessary to make `remarkable_mouse` work. 
 
-```
-./remouse.sh
-```
-
-There is also `remouse0.sh` and `remouse1.sh` which are the same as `remouse.sh` but with the monitor number set to 0 or 1 respectively.
-
-```
-./remouse0.sh
+```shell
+./remouse.sh 0
 ```
 
-```
-./remouse1.sh
-```
-
-
-
+If it is not the monitor you need just change the first command:
+- 0 : for the first monitor
+- 1 : for the second monitor
